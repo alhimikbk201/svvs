@@ -13,12 +13,8 @@
             "allow": [],
             "depConstraints": [
               {
-                "sourceTag": "scope:client",
-                "onlyDependOnLibsWithTags": ["scope:client"]
-              },
-              {
-                "sourceTag": "scope:admin",
-                "onlyDependOnLibsWithTags": ["scope:admin"]
+                "sourceTag": "*",
+                "onlyDependOnLibsWithTags": ["*"]
               }
             ]
           }
